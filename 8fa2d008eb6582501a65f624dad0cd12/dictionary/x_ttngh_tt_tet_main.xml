@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="12e39848eb6582501a65f624dad0cdd9" label="TT Travel expense tool" max_length="40" name="x_ttngh_tt_tet_main" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cost type" max_length="40" name="u_cost_type" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
