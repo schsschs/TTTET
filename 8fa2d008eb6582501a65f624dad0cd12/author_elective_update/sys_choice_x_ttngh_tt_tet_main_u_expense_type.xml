@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_expense_type" table="x_ttngh_tt_tet_main" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_expense_type</element>
+            <name>x_ttngh_tt_tet_main</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:03:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_expense_type</sys_name>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_choice_x_ttngh_tt_tet_main_u_expense_type</sys_update_name>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:03:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Autowäsche und -Zubehör </label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:03:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:08:46</sys_updated_on>
+            <value>cw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Car wash and accessories</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:03:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:08:46</sys_updated_on>
+            <value>cw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bewirtung (Trinkgeld)</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:08:49</sys_updated_on>
+            <value>h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hospitality (tips)</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:04:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:08:49</sys_updated_on>
+            <value>h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Büro- und EDV-Material </label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:04:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:08:53</sys_updated_on>
+            <value>ocm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Office and computing materials</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:04:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:08:53</sys_updated_on>
+            <value>ocm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fachliteratur </label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:04:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:08:57</sys_updated_on>
+            <value>tl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Technical literature</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:04:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:08:57</sys_updated_on>
+            <value>tl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kraftstoff </label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:05:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:01</sys_updated_on>
+            <value>f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fuel</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:05:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:01</sys_updated_on>
+            <value>f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Porto </label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:04</sys_updated_on>
+            <value>p</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Postage</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:05:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:04</sys_updated_on>
+            <value>p</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Präsente</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:08</sys_updated_on>
+            <value>g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gifts</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:05:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:08</sys_updated_on>
+            <value>g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Telefon</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:06:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:13</sys_updated_on>
+            <value>t</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Telephone</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:06:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:13</sys_updated_on>
+            <value>t</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tanken Strom</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:07:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:17</sys_updated_on>
+            <value>evc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electric vehicle charging</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:06:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:17</sys_updated_on>
+            <value>evc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Strompauschale Elektrofahrzeug </label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:07:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:20</sys_updated_on>
+            <value>efe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electricity flat rate (Electric vehicle)</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:07:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:20</sys_updated_on>
+            <value>efe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Strompauschale Hybridelektrofahrzeug </label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:26</sys_updated_on>
+            <value>efh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electricity flat rate (Hybrid vehicle)</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:07:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:26</sys_updated_on>
+            <value>efh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fortbildung</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:07:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:29</sys_updated_on>
+            <value>ft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Further training</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:07:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:29</sys_updated_on>
+            <value>ft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sonst. Auslagen</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:08:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:32</sys_updated_on>
+            <value>oe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other expenses</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-09 23:08:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-09 23:09:32</sys_updated_on>
+            <value>oe</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

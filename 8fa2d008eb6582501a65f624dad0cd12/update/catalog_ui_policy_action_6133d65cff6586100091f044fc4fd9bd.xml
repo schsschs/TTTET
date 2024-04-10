@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Travel expense">a53052d8ff6586100091f044fc4fd90e</catalog_item>
+        <catalog_variable>IO:7122da1cff6586100091f044fc4fd9ec</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>s.schmidt99</sys_created_by>
+        <sys_created_on>2024-04-09 23:23:37</sys_created_on>
+        <sys_id>6133d65cff6586100091f044fc4fd9bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense</sys_name>
+        <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6133d65cff6586100091f044fc4fd9bd</sys_update_name>
+        <sys_updated_by>s.schmidt99</sys_updated_by>
+        <sys_updated_on>2024-04-09 23:23:37</sys_updated_on>
+        <table/>
+        <ui_policy display_value="TTTET Expense select">e0c2125cff6586100091f044fc4fd961</ui_policy>
+        <variable>Expense</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

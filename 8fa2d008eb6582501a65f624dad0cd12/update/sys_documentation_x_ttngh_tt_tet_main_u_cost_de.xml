@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_cost" label="Kosten" language="de" table="x_ttngh_tt_tet_main">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_cost</element>
+            <help/>
+            <hint/>
+            <label>Kosten</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:32:44</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Kosten</sys_name>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_documentation_x_ttngh_tt_tet_main_u_cost_de</sys_update_name>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:32:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

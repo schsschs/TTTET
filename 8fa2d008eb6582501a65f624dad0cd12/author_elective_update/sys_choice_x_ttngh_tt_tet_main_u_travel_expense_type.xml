@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_travel_expense_type" table="x_ttngh_tt_tet_main" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_travel_expense_type</element>
+            <name>x_ttngh_tt_tet_main</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:43:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_travel_expense_type</sys_name>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_choice_x_ttngh_tt_tet_main_u_travel_expense_type</sys_update_name>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:43:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fahrkosten Nahverkehr</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:43:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:46:20</sys_updated_on>
+            <value>tcl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travel costs (local)</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:46:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:46:22</sys_updated_on>
+            <value>tcl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fahrkosten Taxi</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:46:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:46:44</sys_updated_on>
+            <value>tf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Taxi fare</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:46:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:47:02</sys_updated_on>
+            <value>tf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fernschläfer Pauschale</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:47:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:13</sys_updated_on>
+            <value>roa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remote overnight allowance</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:47:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:16</sys_updated_on>
+            <value>roa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bahn</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:47:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:23</sys_updated_on>
+            <value>t</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Train</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:47:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:23</sys_updated_on>
+            <value>t</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hotel Frühstuck</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:47:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:27</sys_updated_on>
+            <value>hb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hotel breakfast</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:48:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:27</sys_updated_on>
+            <value>hb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hotel</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:34</sys_updated_on>
+            <value>h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KM Geld</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:48:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:41</sys_updated_on>
+            <value>kma</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KM allowance</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:41</sys_updated_on>
+            <value>kma</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parkgebühr</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:49:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:46</sys_updated_on>
+            <value>pf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parking fee</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:49:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:46</sys_updated_on>
+            <value>pf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sonstige Reisekosten</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:49:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:52</sys_updated_on>
+            <value>otc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other travel costs</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:50:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:53</sys_updated_on>
+            <value>otc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Übernachtungspauschale (privat)</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:50:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:57</sys_updated_on>
+            <value>aap</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accomodation allowance (private)</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:52:57</sys_updated_on>
+            <value>aap</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verpflegungsmehraufwendungen</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:50:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:53:02</sys_updated_on>
+            <value>ame</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Additional meal expenses</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:53:02</sys_updated_on>
+            <value>ame</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flug</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:51:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:53:09</sys_updated_on>
+            <value>f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flight</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:51:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:53:09</sys_updated_on>
+            <value>f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Übernachtungszuschuss (privat)</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:51:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:53:13</sys_updated_on>
+            <value>asp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accomodation subsidy (private)</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:53:13</sys_updated_on>
+            <value>asp</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
