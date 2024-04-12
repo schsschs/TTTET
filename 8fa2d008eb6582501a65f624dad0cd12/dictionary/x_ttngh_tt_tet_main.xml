@@ -2,7 +2,8 @@
     <element db_object_id="12e39848eb6582501a65f624dad0cdd9" label="TT Travel expense tool" max_length="40" name="x_ttngh_tt_tet_main" type="collection">
         <element label="Accomodation" max_length="40" name="u_accomodation" type="integer"/>
         <element label="Amount" max_length="20" name="u_amount" type="price"/>
-        <element label="Arival" max_length="40" name="u_arival" type="glide_date_time"/>
+        <element label="Arrival" max_length="40" name="u_arrival" type="glide_date_time"/>
+        <element label="Comment" max_length="1000" name="u_comment" type="string"/>
         <element label="Cost" max_length="20" name="u_cost" type="price"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cost type" max_length="40" name="u_cost_type" type="choice">
             <choice>
@@ -15,7 +16,7 @@
         <element choice="1" label="Destination" max_length="40" name="u_destination" type="choice">
             <choice/>
         </element>
-        <element choice="1" label="Expense" max_length="40" name="u_expense_type" type="choice">
+        <element choice="1" label="Expense type" max_length="40" name="u_expense_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Autowäsche und -Zubehör " language="de" sequence="10" value="cw"/>
                 <element inactive_on_update="false" label="Car wash and accessories" sequence="10" value="cw"/>
@@ -47,6 +48,7 @@
         </element>
         <element label="Include in invoice?" max_length="40" name="u_include_invoice" type="boolean"/>
         <element label="Kilometer" max_length="40" name="u_kilometer" type="integer"/>
+        <element label="Overnight" max_length="40" name="u_overnight" type="integer"/>
         <element label="Purpose of travel" max_length="40" name="u_purpose_of_travel" type="string"/>
         <element label="Receipt date" max_length="40" name="u_receipt_date" type="glide_date"/>
         <element label="Reduction" max_length="20" name="u_reduction" type="price"/>
@@ -84,7 +86,14 @@
             </choice>
         </element>
         <element choice="1" label="VAT rate" max_length="40" name="u_vat_rate" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Regulär" language="de" sequence="10" value="std"/>
+                <element inactive_on_update="false" label="Regular" sequence="10" value="std"/>
+                <element inactive_on_update="false" label="Ermässigt" language="de" sequence="20" value="re"/>
+                <element inactive_on_update="false" label="Reduced" sequence="20" value="re"/>
+                <element inactive_on_update="false" label="Steuerfrei" language="de" sequence="30" value="f"/>
+                <element inactive_on_update="false" label="Tax free" sequence="30" value="f"/>
+            </choice>
         </element>
     </element>
 </database>
