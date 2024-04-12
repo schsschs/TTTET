@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="12e39848eb6582501a65f624dad0cdd9" label="TT Travel expense tool" max_length="40" name="x_ttngh_tt_tet_main" type="collection">
+        <element label="Accomodation" max_length="40" name="u_accomodation" type="integer"/>
+        <element label="Amount" max_length="20" name="u_amount" type="price"/>
+        <element label="Arival" max_length="40" name="u_arival" type="glide_date_time"/>
+        <element label="Cost" max_length="20" name="u_cost" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cost type" max_length="40" name="u_cost_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reisekosten" language="de" sequence="10" value="te"/>
+                <element inactive_on_update="false" label="Travel expense" sequence="10" value="te"/>
+                <element inactive_on_update="false" label="Auslagen" language="de" sequence="20" value="ex"/>
+                <element inactive_on_update="false" label="Expense" sequence="20" value="ex"/>
+            </choice>
+        </element>
+        <element choice="1" label="Destination" max_length="40" name="u_destination" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Expense" max_length="40" name="u_expense_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Autowäsche und -Zubehör " language="de" sequence="10" value="cw"/>
+                <element inactive_on_update="false" label="Car wash and accessories" sequence="10" value="cw"/>
+                <element inactive_on_update="false" label="Bewirtung (Trinkgeld)" language="de" sequence="20" value="h"/>
+                <element inactive_on_update="false" label="Hospitality (tips)" sequence="20" value="h"/>
+                <element inactive_on_update="false" label="Büro- und EDV-Material " language="de" sequence="30" value="ocm"/>
+                <element inactive_on_update="false" label="Office and computing materials" sequence="30" value="ocm"/>
+                <element inactive_on_update="false" label="Fachliteratur " language="de" sequence="40" value="tl"/>
+                <element inactive_on_update="false" label="Technical literature" sequence="40" value="tl"/>
+                <element inactive_on_update="false" label="Fuel" sequence="50" value="f"/>
+                <element inactive_on_update="false" label="Kraftstoff " language="de" sequence="50" value="f"/>
+                <element inactive_on_update="false" label="Porto " language="de" sequence="60" value="p"/>
+                <element inactive_on_update="false" label="Postage" sequence="60" value="p"/>
+                <element inactive_on_update="false" label="Gifts" sequence="70" value="g"/>
+                <element inactive_on_update="false" label="Präsente" language="de" sequence="70" value="g"/>
+                <element inactive_on_update="false" label="Telefon" language="de" sequence="80" value="t"/>
+                <element inactive_on_update="false" label="Telephone" sequence="80" value="t"/>
+                <element inactive_on_update="false" label="Electric vehicle charging" sequence="90" value="evc"/>
+                <element inactive_on_update="false" label="Tanken Strom" language="de" sequence="90" value="evc"/>
+                <element inactive_on_update="false" label="Electricity flat rate (Electric vehicle)" sequence="100" value="efe"/>
+                <element inactive_on_update="false" label="Strompauschale Elektrofahrzeug " language="de" sequence="100" value="efe"/>
+                <element inactive_on_update="false" label="Electricity flat rate (Hybrid vehicle)" sequence="110" value="efh"/>
+                <element inactive_on_update="false" label="Strompauschale Hybridelektrofahrzeug " language="de" sequence="110" value="efh"/>
+                <element inactive_on_update="false" label="Fortbildung" language="de" sequence="120" value="ft"/>
+                <element inactive_on_update="false" label="Further training" sequence="120" value="ft"/>
+                <element inactive_on_update="false" label="Other expenses" sequence="130" value="oe"/>
+                <element inactive_on_update="false" label="sonst. Auslagen" language="de" sequence="130" value="oe"/>
+            </choice>
+        </element>
+        <element label="Include in invoice?" max_length="40" name="u_include_invoice" type="boolean"/>
+        <element label="Kilometer" max_length="40" name="u_kilometer" type="integer"/>
+        <element label="Purpose of travel" max_length="40" name="u_purpose_of_travel" type="string"/>
+        <element label="Receipt date" max_length="40" name="u_receipt_date" type="glide_date"/>
+        <element label="Reduction" max_length="20" name="u_reduction" type="price"/>
+        <element label="Return" max_length="40" name="u_return" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Travel expense type" max_length="40" name="u_travel_expense_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fahrkosten Nahverkehr" language="de" sequence="10" value="tcl"/>
+                <element inactive_on_update="false" label="Travel costs (local)" sequence="10" value="tcl"/>
+                <element inactive_on_update="false" label="Fahrkosten Taxi" language="de" sequence="20" value="tf"/>
+                <element inactive_on_update="false" label="Taxi fare" sequence="20" value="tf"/>
+                <element inactive_on_update="false" label="Fernschläfer Pauschale" language="de" sequence="30" value="roa"/>
+                <element inactive_on_update="false" label="Remote overnight allowance" sequence="30" value="roa"/>
+                <element inactive_on_update="false" label="Bahn" language="de" sequence="40" value="t"/>
+                <element inactive_on_update="false" label="Train" sequence="40" value="t"/>
+                <element inactive_on_update="false" label="Hotel breakfast" sequence="50" value="hb"/>
+                <element inactive_on_update="false" label="Hotel Frühstuck" language="de" sequence="50" value="hb"/>
+                <element inactive_on_update="false" label="Hotel" sequence="60" value="h"/>
+                <element inactive_on_update="false" label="KM allowance" sequence="70" value="kma"/>
+                <element inactive_on_update="false" label="KM Geld" language="de" sequence="70" value="kma"/>
+                <element inactive_on_update="false" label="Parkgebühr" language="de" sequence="80" value="pf"/>
+                <element inactive_on_update="false" label="Parking fee" sequence="80" value="pf"/>
+                <element inactive_on_update="false" label="Other travel costs" sequence="90" value="otc"/>
+                <element inactive_on_update="false" label="sonstige Reisekosten" language="de" sequence="90" value="otc"/>
+                <element inactive_on_update="false" label="Accomodation allowance (private)" sequence="100" value="aap"/>
+                <element inactive_on_update="false" label="Übernachtungspauschale (privat)" language="de" sequence="100" value="aap"/>
+                <element inactive_on_update="false" label="Additional meal expenses" sequence="110" value="ame"/>
+                <element inactive_on_update="false" label="Verpflegungsmehraufwendungen" language="de" sequence="110" value="ame"/>
+                <element inactive_on_update="false" label="Flight" sequence="120" value="f"/>
+                <element inactive_on_update="false" label="Flug" language="de" sequence="120" value="f"/>
+                <element inactive_on_update="false" label="Accomodation subsidy (private)" sequence="130" value="asp"/>
+                <element inactive_on_update="false" label="Übernachtungszuschuss (privat)" language="de" sequence="130" value="asp"/>
+            </choice>
+        </element>
+        <element choice="1" label="VAT rate" max_length="40" name="u_vat_rate" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

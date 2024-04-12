@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_cost_type" table="x_ttngh_tt_tet_main" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_cost_type</element>
+            <name>x_ttngh_tt_tet_main</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:39:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cost_type</sys_name>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_choice_x_ttngh_tt_tet_main_u_cost_type</sys_update_name>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:39:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reisekosten</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:39:58</sys_updated_on>
+            <value>te</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travel expense</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:39:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:39:45</sys_updated_on>
+            <value>te</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auslagen</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:40:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:40:25</sys_updated_on>
+            <value>ex</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expense</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-08 21:40:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-08 21:40:13</sys_updated_on>
+            <value>ex</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
