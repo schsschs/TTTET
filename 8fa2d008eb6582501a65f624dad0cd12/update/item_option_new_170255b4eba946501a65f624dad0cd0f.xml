@@ -5,8 +5,8 @@
         <cat_item display_value="Travel expense">a53052d8ff6586100091f044fc4fd90e</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>u_destination</choice_field>
+        <choice_table>x_ttngh_tt_tet_main</choice_table>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -77,17 +77,17 @@
         <sys_created_by>s.schmidt99</sys_created_by>
         <sys_created_on>2024-04-11 07:56:26</sys_created_on>
         <sys_id>170255b4eba946501a65f624dad0cd0f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Destination</sys_name>
         <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
         <sys_policy/>
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>item_option_new_170255b4eba946501a65f624dad0cd0f</sys_update_name>
         <sys_updated_by>s.schmidt99</sys_updated_by>
-        <sys_updated_on>2024-04-11 07:56:26</sys_updated_on>
+        <sys_updated_on>2024-04-20 04:56:40</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
