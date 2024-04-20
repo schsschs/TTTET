@@ -37,8 +37,7 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Es wurde ein Reisekosten Antrag erstellt.</p>
-<p>&nbsp;</p>
-<p>Sys ID: ${sys_id}</p>]]></message_html>
+<p><a href="https://ven06948.service-now.com/now/nav/ui/classic/params/target/x_ttngh_tt_tet_main.do%3Fsys_id%3D${sys_id}%26sysparm_view%3D%26sysparm_record_target%3Dx_ttngh_tt_tet_main%26sysparm_record_row%3D1%26sysparm_record_list%3D%26sysparm_record_rows%3D1" target="_blank" rel="noopener">[to Request]</a></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>TTTET Accounting create new request</name>
@@ -46,7 +45,7 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups/>
+        <recipient_groups name="TTTET Accountant">f86c8b4bebe1ce501a65f624dad0cdbd</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -60,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e37bcb0bebe1ce501a65f624dad0cd91</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>TTTET Accounting create new request</sys_name>
         <sys_overrides/>
         <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
@@ -68,7 +67,7 @@
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>sysevent_email_action_e37bcb0bebe1ce501a65f624dad0cd91</sys_update_name>
         <sys_updated_by>s.schmidt99</sys_updated_by>
-        <sys_updated_on>2024-04-18 16:43:41</sys_updated_on>
+        <sys_updated_on>2024-04-20 04:48:32</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
