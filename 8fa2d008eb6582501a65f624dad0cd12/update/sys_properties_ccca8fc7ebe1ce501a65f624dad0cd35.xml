@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_ttngh_tt_tet.accountant</name>
+        <read_roles/>
+        <suffix>accountant</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>s.schmidt99</sys_created_by>
+        <sys_created_on>2024-04-18 16:32:07</sys_created_on>
+        <sys_id>ccca8fc7ebe1ce501a65f624dad0cd35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ttngh_tt_tet.accountant</sys_name>
+        <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+        <sys_update_name>sys_properties_ccca8fc7ebe1ce501a65f624dad0cd35</sys_update_name>
+        <sys_updated_by>s.schmidt99</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:32:07</sys_updated_on>
+        <type>string</type>
+        <value>x_ttngh_tt_tet.Accountant</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=ccca8fc7ebe1ce501a65f624dad0cd35"/>
+</record_update>
