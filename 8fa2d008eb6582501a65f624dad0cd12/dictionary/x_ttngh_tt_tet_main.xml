@@ -54,7 +54,11 @@
         <element label="Reduction" max_length="20" name="u_reduction" type="price"/>
         <element label="Return" max_length="40" name="u_return" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="In Approvel" value="ia"/>
+                <element inactive_on_update="false" label="Retrive" value="r"/>
+                <element inactive_on_update="false" label="Success" value="s"/>
+            </choice>
         </element>
         <element choice="1" label="Travel expense type" max_length="40" name="u_travel_expense_type" type="choice">
             <choice>
