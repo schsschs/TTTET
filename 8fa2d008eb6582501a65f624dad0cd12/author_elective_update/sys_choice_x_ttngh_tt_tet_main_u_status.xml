@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_ttngh_tt_tet_main" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_ttngh_tt_tet_main</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-28 04:41:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_choice_x_ttngh_tt_tet_main_u_status</sys_update_name>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-28 04:41:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Approvel</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-28 04:41:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-28 04:41:16</sys_updated_on>
+            <value>ia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retrive</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-28 04:41:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-28 04:41:34</sys_updated_on>
+            <value>r</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-04-28 04:41:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-04-28 04:41:22</sys_updated_on>
+            <value>s</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
