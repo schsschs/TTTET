@@ -5,8 +5,8 @@
         <cat_item display_value="Travel expense">a53052d8ff6586100091f044fc4fd90e</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>u_vat_rate</choice_field>
+        <choice_table>x_ttngh_tt_tet_main</choice_table>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -77,14 +77,14 @@
         <sys_created_by>s.schmidt99</sys_created_by>
         <sys_created_on>2024-04-11 08:20:53</sys_created_on>
         <sys_id>6297593ceba946501a65f624dad0cd73</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>VAT Rate</sys_name>
         <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
         <sys_policy/>
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>item_option_new_6297593ceba946501a65f624dad0cd73</sys_update_name>
         <sys_updated_by>s.schmidt99</sys_updated_by>
-        <sys_updated_on>2024-04-11 08:20:53</sys_updated_on>
+        <sys_updated_on>2024-05-24 11:21:19</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
