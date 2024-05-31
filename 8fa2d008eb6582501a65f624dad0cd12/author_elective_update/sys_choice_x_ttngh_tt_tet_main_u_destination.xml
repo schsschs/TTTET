@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_destination" table="x_ttngh_tt_tet_main" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_destination</element>
+            <name>x_ttngh_tt_tet_main</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:41:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_destination</sys_name>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_choice_x_ttngh_tt_tet_main_u_destination</sys_update_name>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:41:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Schweiz</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:42:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:43:04</sys_updated_on>
+            <value>ch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Switzerland</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:42:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:42:52</sys_updated_on>
+            <value>ch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Schweiz - Genf</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:44:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:45:19</sys_updated_on>
+            <value>ch-g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Switzerland - Geneva</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:43:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:45:16</sys_updated_on>
+            <value>ch-g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Germany</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:41:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:41:51</sys_updated_on>
+            <value>de</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deutschland</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:42:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:42:20</sys_updated_on>
+            <value>de</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - im Übrigen</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:52:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:52:54</sys_updated_on>
+            <value>us</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - other</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:53:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:53:13</sys_updated_on>
+            <value>us</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Atlanta</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:44:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:45:27</sys_updated_on>
+            <value>us-a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Atlanta</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:44:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:45:23</sys_updated_on>
+            <value>us-a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Bosten</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:45:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:51:30</sys_updated_on>
+            <value>us-b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Boston</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:45:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:45:41</sys_updated_on>
+            <value>us-b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Chicago</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:46:40</sys_updated_on>
+            <value>us-c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Chicago</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:46:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:46:17</sys_updated_on>
+            <value>us-c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Houston</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:47:24</sys_updated_on>
+            <value>us-h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Houston</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:47:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:47:11</sys_updated_on>
+            <value>us-h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Los Angeles</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:48:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:48:36</sys_updated_on>
+            <value>us-la</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Los Angeles</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:48:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:48:19</sys_updated_on>
+            <value>us-la</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Miami</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:49:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:49:22</sys_updated_on>
+            <value>us-m</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Miami</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:48:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:49:00</sys_updated_on>
+            <value>us-m</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - New York</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:49:40</sys_updated_on>
+            <value>us-ny</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - New York</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:50:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:50:12</sys_updated_on>
+            <value>us-ny</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - San Francisco</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:50:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:50:36</sys_updated_on>
+            <value>us-sf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - San Francisco</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:50:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:51:01</sys_updated_on>
+            <value>us-sf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Washington D.C.</label>
+            <language>de</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:52:17</sys_updated_on>
+            <value>us-wdc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_destination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA - Washington D.C.</label>
+            <language>en</language>
+            <name>x_ttngh_tt_tet_main</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>dev.nina.engel</sys_created_by>
+            <sys_created_on>2024-05-24 13:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dev.nina.engel</sys_updated_by>
+            <sys_updated_on>2024-05-24 13:51:54</sys_updated_on>
+            <value>us-wdc</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
