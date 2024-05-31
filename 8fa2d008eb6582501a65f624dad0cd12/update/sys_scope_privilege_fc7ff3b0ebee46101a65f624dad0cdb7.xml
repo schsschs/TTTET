@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>m.japp99</sys_created_by>
+        <sys_created_on>2024-05-31 13:36:10</sys_created_on>
+        <sys_id>fc7ff3b0ebee46101a65f624dad0cdb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: properties</sys_name>
+        <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+        <sys_update_name>sys_scope_privilege_fc7ff3b0ebee46101a65f624dad0cdb7</sys_update_name>
+        <sys_updated_by>m.japp99</sys_updated_by>
+        <sys_updated_on>2024-05-31 13:36:10</sys_updated_on>
+        <target_name>Glide API: properties</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

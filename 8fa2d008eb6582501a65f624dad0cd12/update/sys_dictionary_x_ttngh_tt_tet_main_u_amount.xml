@@ -6,14 +6,21 @@
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
-	// Add your code here
-	return '';  // return the calculated value
+	//if (current.u_vat_rate=="f") return current.u_cost;
+
+//gs.addInfoMessage(prop);
+
+	var tax = JSON.parse(gs.getProperty("x_ttngh_tt_tet.VAT_rate"))[current.u_vat_rate];	
+	
+	var total = parseFloat(current.u_cost) / (1 + tax / 100);
+
+	return total;
 
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Amount</column_label>
+        <column_label>Amount (excl. Tax)</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -52,20 +59,20 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>s.schmidt99</sys_created_by>
         <sys_created_on>2024-04-08 21:26:15</sys_created_on>
-        <sys_name>Amount</sys_name>
+        <sys_name>Amount (excl. Tax)</sys_name>
         <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
         <sys_policy/>
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>sys_dictionary_x_ttngh_tt_tet_main_u_amount</sys_update_name>
-        <sys_updated_by>s.schmidt99</sys_updated_by>
-        <sys_updated_on>2024-04-08 21:26:15</sys_updated_on>
+        <sys_updated_by>m.japp99</sys_updated_by>
+        <sys_updated_on>2024-05-31 14:11:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

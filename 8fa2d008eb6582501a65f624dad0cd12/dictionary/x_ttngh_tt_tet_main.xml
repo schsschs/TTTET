@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="12e39848eb6582501a65f624dad0cdd9" label="TT Travel expense tool" max_length="40" name="x_ttngh_tt_tet_main" type="collection">
-        <element label="Cost" max_length="20" name="u_cost" type="price"/>
+        <element label="Cost (incl. Tax)" max_length="20" name="u_cost" type="price"/>
         <element label="Return" max_length="40" name="u_return" type="glide_date_time"/>
         <element choice="1" label="Travel expense type" max_length="40" name="u_travel_expense_type" type="choice">
             <choice>
@@ -122,7 +122,7 @@
                 <element inactive_on_update="false" label="Auslagen" language="de" sequence="20" value="ex"/>
             </choice>
         </element>
-        <element label="Amount" max_length="20" name="u_amount" type="price"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;//if (current.u_vat_rate==&quot;f&quot;) return current.u_cost;&#13;&#10;&#13;&#10;//gs.addInfoMessage(prop);&#13;&#10;&#13;&#10;&#9;var tax = JSON.parse(gs.getProperty(&quot;x_ttngh_tt_tet.VAT_rate&quot;))[current.u_vat_rate];&#9;&#13;&#10;&#9;&#13;&#10;&#9;var total = parseFloat(current.u_cost) / (1 + tax / 100);&#13;&#10;&#13;&#10;&#9;return total;&#13;&#10;&#13;&#10;})(current);" label="Amount (excl. Tax)" max_length="20" name="u_amount" type="price" virtual="true"/>
         <element label="Reduction" max_length="20" name="u_reduction" type="price"/>
         <element label="Comment" max_length="1000" name="u_comment" type="string"/>
         <element label="Kilometer" max_length="40" name="u_kilometer" type="integer"/>
