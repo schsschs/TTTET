@@ -12,7 +12,7 @@
 
 	var tax = JSON.parse(gs.getProperty("x_ttngh_tt_tet.VAT_rate"))[current.u_vat_rate];	
 	
-	var total = parseFloat(current.u_cost) / (1 + tax / 100);
+	var total = parseFloat(current.u_cost) / (1 + tax / 100); // Netto = Brutto / (1.0 + Steuersatz / 100)
 
 	return total;
 
@@ -64,8 +64,8 @@
         <sys_policy/>
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>sys_dictionary_x_ttngh_tt_tet_main_u_amount</sys_update_name>
-        <sys_updated_by>m.japp99</sys_updated_by>
-        <sys_updated_on>2024-05-31 14:11:04</sys_updated_on>
+        <sys_updated_by>s.schmidt99</sys_updated_by>
+        <sys_updated_on>2024-06-04 08:40:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

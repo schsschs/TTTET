@@ -24,6 +24,7 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>true</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -88,14 +89,14 @@
         <sys_created_by>s.schmidt99</sys_created_by>
         <sys_created_on>2024-04-09 23:11:16</sys_created_on>
         <sys_id>a53052d8ff6586100091f044fc4fd90e</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>91</sys_mod_count>
         <sys_name>Travel expense</sys_name>
         <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
         <sys_policy/>
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>sc_cat_item_producer_a53052d8ff6586100091f044fc4fd90e</sys_update_name>
-        <sys_updated_by>s.schmidt99</sys_updated_by>
-        <sys_updated_on>2024-05-28 22:39:43</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-05 13:54:50</sys_updated_on>
         <table_name>x_ttngh_tt_tet_main</table_name>
         <taxonomy_topic/>
         <template/>
@@ -103,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>76</version>
+        <version>91</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -111,6 +112,45 @@
         <workflow/>
     </sc_cat_item_producer>
     <sys_translated_text action="delete_multiple" query="documentkey=a53052d8ff6586100091f044fc4fd90e"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a53052d8ff6586100091f044fc4fd90e</documentkey>
+        <fieldname>description</fieldname>
+        <language>de</language>
+        <sys_created_by>m.japp99</sys_created_by>
+        <sys_created_on>2024-07-05 13:22:06</sys_created_on>
+        <sys_id>48eb4414eb13c6101a65f624dad0cd0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.japp99</sys_updated_by>
+        <sys_updated_on>2024-07-05 13:22:06</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a53052d8ff6586100091f044fc4fd90e</documentkey>
+        <fieldname>name</fieldname>
+        <language>de</language>
+        <sys_created_by>m.japp99</sys_created_by>
+        <sys_created_on>2024-07-05 13:22:06</sys_created_on>
+        <sys_id>48eb84d0eb13c6101a65f624dad0cd32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.japp99</sys_updated_by>
+        <sys_updated_on>2024-07-05 13:22:06</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Travel expense</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a53052d8ff6586100091f044fc4fd90e</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>de</language>
+        <sys_created_by>m.japp99</sys_created_by>
+        <sys_created_on>2024-07-05 13:22:06</sys_created_on>
+        <sys_id>cceb4414eb13c6101a65f624dad0cd07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.japp99</sys_updated_by>
+        <sys_updated_on>2024-07-05 13:22:06</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=a53052d8ff6586100091f044fc4fd90e"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
@@ -119,13 +159,13 @@
         <id>a53052d8ff6586100091f044fc4fd90e</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="EUR">EUR</reference_currency>
         <sys_created_by>s.schmidt99</sys_created_by>
         <sys_created_on>2024-04-09 23:11:16</sys_created_on>
         <sys_id>0e60d2d8ff6586100091f044fc4fd9d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>s.schmidt99</sys_updated_by>
-        <sys_updated_on>2024-04-09 23:11:16</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>m.japp99</sys_updated_by>
+        <sys_updated_on>2024-07-05 12:54:28</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
