@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Travel information" section_id="27a17b95ebd342101a65f624dad0cd27" sys_domain="global" table="x_ttngh_tt_tet_main" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_arrival</element>
+            <position>0</position>
+            <sys_created_by>dev.lucas.mensing</sys_created_by>
+            <sys_created_on>2024-07-09 08:40:05</sys_created_on>
+            <sys_id>3fa1bb95ebd342101a65f624dad0cddb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel information" display_value="Travel information" name="x_ttngh_tt_tet_main" sys_domain="global" view="Default view">27a17b95ebd342101a65f624dad0cd27</sys_ui_section>
+            <sys_updated_by>dev.lucas.mensing</sys_updated_by>
+            <sys_updated_on>2024-07-09 08:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_return</element>
+            <position>1</position>
+            <sys_created_by>dev.lucas.mensing</sys_created_by>
+            <sys_created_on>2024-07-09 08:40:05</sys_created_on>
+            <sys_id>b3a1bb95ebd342101a65f624dad0cddc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel information" display_value="Travel information" name="x_ttngh_tt_tet_main" sys_domain="global" view="Default view">27a17b95ebd342101a65f624dad0cd27</sys_ui_section>
+            <sys_updated_by>dev.lucas.mensing</sys_updated_by>
+            <sys_updated_on>2024-07-09 08:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_overnight</element>
+            <position>2</position>
+            <sys_created_by>dev.lucas.mensing</sys_created_by>
+            <sys_created_on>2024-07-09 08:40:05</sys_created_on>
+            <sys_id>3ba1bb95ebd342101a65f624dad0cddc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel information" display_value="Travel information" name="x_ttngh_tt_tet_main" sys_domain="global" view="Default view">27a17b95ebd342101a65f624dad0cd27</sys_ui_section>
+            <sys_updated_by>dev.lucas.mensing</sys_updated_by>
+            <sys_updated_on>2024-07-09 08:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>dev.lucas.mensing</sys_created_by>
+            <sys_created_on>2024-07-09 08:40:05</sys_created_on>
+            <sys_id>bfa1bb95ebd342101a65f624dad0cddc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel information" display_value="Travel information" name="x_ttngh_tt_tet_main" sys_domain="global" view="Default view">27a17b95ebd342101a65f624dad0cd27</sys_ui_section>
+            <sys_updated_by>dev.lucas.mensing</sys_updated_by>
+            <sys_updated_on>2024-07-09 08:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>dev.lucas.mensing</sys_created_by>
+            <sys_created_on>2024-07-09 08:40:05</sys_created_on>
+            <sys_id>37a1bb95ebd342101a65f624dad0cddd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel information" display_value="Travel information" name="x_ttngh_tt_tet_main" sys_domain="global" view="Default view">27a17b95ebd342101a65f624dad0cd27</sys_ui_section>
+            <sys_updated_by>dev.lucas.mensing</sys_updated_by>
+            <sys_updated_on>2024-07-09 08:40:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment</element>
+            <position>5</position>
+            <sys_created_by>dev.lucas.mensing</sys_created_by>
+            <sys_created_on>2024-07-09 08:40:05</sys_created_on>
+            <sys_id>bba1bb95ebd342101a65f624dad0cddd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel information" display_value="Travel information" name="x_ttngh_tt_tet_main" sys_domain="global" view="Default view">27a17b95ebd342101a65f624dad0cd27</sys_ui_section>
+            <sys_updated_by>dev.lucas.mensing</sys_updated_by>
+            <sys_updated_on>2024-07-09 08:40:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Travel information</caption>
+            <header>false</header>
+            <name>x_ttngh_tt_tet_main</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dev.lucas.mensing</sys_created_by>
+            <sys_created_on>2024-07-09 08:40:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27a17b95ebd342101a65f624dad0cd27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ttngh_tt_tet_main</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_ui_section_27a17b95ebd342101a65f624dad0cd27</sys_update_name>
+            <sys_updated_by>dev.lucas.mensing</sys_updated_by>
+            <sys_updated_on>2024-07-09 08:40:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

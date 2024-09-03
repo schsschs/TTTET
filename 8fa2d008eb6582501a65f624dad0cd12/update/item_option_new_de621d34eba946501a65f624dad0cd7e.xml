@@ -77,14 +77,14 @@
         <sys_created_by>s.schmidt99</sys_created_by>
         <sys_created_on>2024-04-11 08:00:03</sys_created_on>
         <sys_id>de621d34eba946501a65f624dad0cd7e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Travel purpose</sys_name>
         <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
         <sys_policy/>
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>item_option_new_de621d34eba946501a65f624dad0cd7e</sys_update_name>
-        <sys_updated_by>s.schmidt99</sys_updated_by>
-        <sys_updated_on>2024-04-11 08:00:03</sys_updated_on>
+        <sys_updated_by>dev.peter.schneider</sys_updated_by>
+        <sys_updated_on>2024-08-13 08:21:48</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -104,6 +104,45 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=de621d34eba946501a65f624dad0cd7e"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>de621d34eba946501a65f624dad0cd7e</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>de</language>
+        <sys_created_by>dev.peter.schneider</sys_created_by>
+        <sys_created_on>2024-08-13 08:21:48</sys_created_on>
+        <sys_id>5d2d7be0eb8452101a65f624dad0cddc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev.peter.schneider</sys_updated_by>
+        <sys_updated_on>2024-08-13 08:21:48</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>de621d34eba946501a65f624dad0cd7e</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>de</language>
+        <sys_created_by>dev.peter.schneider</sys_created_by>
+        <sys_created_on>2024-08-13 08:21:49</sys_created_on>
+        <sys_id>6d2dfbe0eb8452101a65f624dad0cd4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev.peter.schneider</sys_updated_by>
+        <sys_updated_on>2024-08-13 08:21:49</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>de621d34eba946501a65f624dad0cd7e</documentkey>
+        <fieldname>rich_text</fieldname>
+        <language>de</language>
+        <sys_created_by>dev.peter.schneider</sys_created_by>
+        <sys_created_on>2024-08-13 08:21:49</sys_created_on>
+        <sys_id>a12dfbe0eb8452101a65f624dad0cd4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev.peter.schneider</sys_updated_by>
+        <sys_updated_on>2024-08-13 08:21:49</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=de621d34eba946501a65f624dad0cd7e"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

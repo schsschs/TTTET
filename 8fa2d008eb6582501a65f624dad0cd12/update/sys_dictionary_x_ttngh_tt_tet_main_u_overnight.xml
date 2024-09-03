@@ -6,8 +6,8 @@
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
-	// Add your code here
-	return '';  // return the calculated value
+	
+	return 1;  // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
@@ -57,15 +57,15 @@
         <sys_policy/>
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>sys_dictionary_x_ttngh_tt_tet_main_u_overnight</sys_update_name>
-        <sys_updated_by>s.schmidt99</sys_updated_by>
-        <sys_updated_on>2024-04-11 08:08:29</sys_updated_on>
+        <sys_updated_by>dev.lucas.mensing</sys_updated_by>
+        <sys_updated_on>2024-07-09 08:30:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

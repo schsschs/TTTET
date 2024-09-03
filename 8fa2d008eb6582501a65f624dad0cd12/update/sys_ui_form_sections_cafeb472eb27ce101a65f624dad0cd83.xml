@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="cafeb472eb27ce101a65f624dad0cd83" sys_domain="global" table="x_ttngh_tt_tet_main" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-07-25 21:45:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8afeb472eb27ce101a65f624dad0cd87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ttngh_tt_tet_main" name="x_ttngh_tt_tet_main" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">cafeb472eb27ce101a65f624dad0cd83</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_ttngh_tt_tet_main" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">42feb472eb27ce101a65f624dad0cd81</sys_ui_section>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-07-25 21:45:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-07-25 21:45:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6feb472eb27ce101a65f624dad0cd88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ttngh_tt_tet_main" name="x_ttngh_tt_tet_main" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">cafeb472eb27ce101a65f624dad0cd83</sys_ui_form>
+            <sys_ui_section caption="Travel information" display_value="Travel information" name="x_ttngh_tt_tet_main" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">4afeb472eb27ce101a65f624dad0cd82</sys_ui_section>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-07-25 21:45:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ttngh_tt_tet_main</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-07-25 21:45:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cafeb472eb27ce101a65f624dad0cd83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ttngh_tt_tet_main</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_ui_form_sections_cafeb472eb27ce101a65f624dad0cd83</sys_update_name>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-07-25 21:45:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Create" name="create">1cb532579f2013001e0abde8132e70e4</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

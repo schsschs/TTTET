@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_include_invoice</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>s.schmidt99</sys_created_by>
+        <sys_created_on>2024-08-17 14:38:03</sys_created_on>
+        <sys_id>2d99b50aeb0452101a65f624dad0cdf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_include_invoice</sys_name>
+        <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2d99b50aeb0452101a65f624dad0cdf9</sys_update_name>
+        <sys_updated_by>s.schmidt99</sys_updated_by>
+        <sys_updated_on>2024-08-17 14:38:03</sys_updated_on>
+        <table>x_ttngh_tt_tet_main</table>
+        <ui_policy display_value="Main View">45e8fdc6eb0452101a65f624dad0cdcc</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

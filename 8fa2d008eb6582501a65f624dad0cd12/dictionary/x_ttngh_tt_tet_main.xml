@@ -44,9 +44,10 @@
         <element label="Receipt date" max_length="40" name="u_receipt_date" type="glide_date"/>
         <element label="Accomodation" max_length="40" name="u_accomodation" type="integer"/>
         <element label="Include in invoice?" max_length="40" name="u_include_invoice" type="boolean"/>
-        <element label="Purpose of travel" max_length="40" name="u_purpose_of_travel" type="string"/>
+        <element display="true" label="Purpose of travel" mandatory="true" max_length="40" name="u_purpose_of_travel" type="string"/>
         <element label="Arrival" max_length="40" name="u_arrival" type="glide_date_time"/>
-        <element label="Overnight" max_length="40" name="u_overnight" type="integer"/>
+        <element label="Parent" max_length="32" name="u_parent" reference="x_ttngh_tt_tet_main" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;&#13;&#10;&#9;return 1;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Overnight" max_length="40" name="u_overnight" type="integer" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Retrive" value="r"/>
@@ -114,6 +115,12 @@
                 <element inactive_on_update="false" label="Technical literature" sequence="40" value="tl"/>
             </choice>
         </element>
+        <element choice="3" default="sub" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sub" value="sub"/>
+                <element inactive_on_update="false" label="Main" value="main"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cost type" max_length="40" name="u_cost_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Expense" sequence="20" value="ex"/>
@@ -126,5 +133,8 @@
         <element label="Reduction" max_length="20" name="u_reduction" type="price"/>
         <element label="Comment" max_length="1000" name="u_comment" type="string"/>
         <element label="Kilometer" max_length="40" name="u_kilometer" type="integer"/>
+        <index name="index">
+            <element name="u_parent"/>
+        </index>
     </element>
 </database>

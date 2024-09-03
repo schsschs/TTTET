@@ -61,7 +61,7 @@
         <recurring_frequency/>
         <redirect_url>generated_record</redirect_url>
         <request_method/>
-        <roles/>
+        <roles>snc_internal</roles>
         <save_options/>
         <save_script><![CDATA[/**
 * This script is executed at every step save in Catalog Builder. 
@@ -89,14 +89,14 @@
         <sys_created_by>s.schmidt99</sys_created_by>
         <sys_created_on>2024-04-09 23:11:16</sys_created_on>
         <sys_id>a53052d8ff6586100091f044fc4fd90e</sys_id>
-        <sys_mod_count>92</sys_mod_count>
-        <sys_name>Travel expense</sys_name>
+        <sys_mod_count>110</sys_mod_count>
+        <sys_name>Reisekostenabrechnung</sys_name>
         <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
         <sys_policy/>
         <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
         <sys_update_name>sc_cat_item_producer_a53052d8ff6586100091f044fc4fd90e</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-09 08:22:15</sys_updated_on>
+        <sys_updated_by>dev.peter.schneider</sys_updated_by>
+        <sys_updated_on>2024-08-13 08:35:43</sys_updated_on>
         <table_name>x_ttngh_tt_tet_main</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>92</version>
+        <version>109</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -132,11 +132,11 @@
         <sys_created_by>m.japp99</sys_created_by>
         <sys_created_on>2024-07-05 13:22:06</sys_created_on>
         <sys_id>48eb84d0eb13c6101a65f624dad0cd32</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>m.japp99</sys_updated_by>
-        <sys_updated_on>2024-07-05 13:22:06</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dev.peter.schneider</sys_updated_by>
+        <sys_updated_on>2024-08-13 08:35:43</sys_updated_on>
         <tablename>sc_cat_item_producer</tablename>
-        <value>Travel expense</value>
+        <value>Reisekostenabrechnung</value>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
         <documentkey>a53052d8ff6586100091f044fc4fd90e</documentkey>

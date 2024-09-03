@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>TT Travel expense View</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var view = getParameterValue('sysparm_view');
+	var type = g_form.getValue("u_type");
+	g_form.setDisplay('u_type', false);
+    if (view != type) switchView('section', 'x_ttngh_tt_tet_main', type);
+}
+
+function getParameterValue(name) {
+	var gUrl = new GlideURL();
+	gUrl.setFromCurrent();
+
+	var result = decodeURI(gUrl.getParam(name));
+	return result;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>s.schmidt99</sys_created_by>
+        <sys_created_on>2024-07-28 21:52:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4cc5c77ff2706100091f044fc4fd971</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>TT Travel expense View</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+        <sys_update_name>sys_script_client_d4cc5c77ff2706100091f044fc4fd971</sys_update_name>
+        <sys_updated_by>s.schmidt99</sys_updated_by>
+        <sys_updated_on>2024-08-17 14:42:47</sys_updated_on>
+        <table>x_ttngh_tt_tet_main</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

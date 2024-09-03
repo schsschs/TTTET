@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0e9ddcb7ff2706100091f044fc4fd95f" sys_domain="global" table="x_ttngh_tt_tet_main" version="3" view="sub">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_travel_expense_type</element>
+            <position>0</position>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-08-02 03:11:42</sys_created_on>
+            <sys_id>23ac8249eb3f4a101a65f624dad0cd51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ttngh_tt_tet_main" sys_domain="global" view="f59ddcb7ff2706100091f044fc4fd95b">0e9ddcb7ff2706100091f044fc4fd95f</sys_ui_section>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-08-02 03:11:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_expense_type</element>
+            <position>1</position>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-08-02 03:11:42</sys_created_on>
+            <sys_id>afac8249eb3f4a101a65f624dad0cd51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ttngh_tt_tet_main" sys_domain="global" view="f59ddcb7ff2706100091f044fc4fd95b">0e9ddcb7ff2706100091f044fc4fd95f</sys_ui_section>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-08-02 03:11:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_parent</element>
+            <position>2</position>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-08-02 03:11:42</sys_created_on>
+            <sys_id>ebac8249eb3f4a101a65f624dad0cd77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ttngh_tt_tet_main" sys_domain="global" view="f59ddcb7ff2706100091f044fc4fd95b">0e9ddcb7ff2706100091f044fc4fd95f</sys_ui_section>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-08-02 03:11:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-08-02 03:11:42</sys_created_on>
+            <sys_id>e3ac8249eb3f4a101a65f624dad0cd78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ttngh_tt_tet_main" sys_domain="global" view="f59ddcb7ff2706100091f044fc4fd95b">0e9ddcb7ff2706100091f044fc4fd95f</sys_ui_section>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-08-02 03:11:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>4</position>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-08-02 03:11:42</sys_created_on>
+            <sys_id>ebac8249eb3f4a101a65f624dad0cd78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ttngh_tt_tet_main" sys_domain="global" view="f59ddcb7ff2706100091f044fc4fd95b">0e9ddcb7ff2706100091f044fc4fd95f</sys_ui_section>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-08-02 03:11:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ttngh_tt_tet_main</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>s.schmidt99</sys_created_by>
+            <sys_created_on>2024-07-28 21:53:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e9ddcb7ff2706100091f044fc4fd95f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ttngh_tt_tet_main</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TT Travel expense tool" source="x_ttngh_tt_tet">8fa2d008eb6582501a65f624dad0cd12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TT Travel expense tool">8fa2d008eb6582501a65f624dad0cd12</sys_scope>
+            <sys_update_name>sys_ui_section_0e9ddcb7ff2706100091f044fc4fd95f</sys_update_name>
+            <sys_updated_by>s.schmidt99</sys_updated_by>
+            <sys_updated_on>2024-07-28 21:53:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="sub" name="sub">f59ddcb7ff2706100091f044fc4fd95b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
